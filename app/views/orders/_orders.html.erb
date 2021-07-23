@@ -1,0 +1,20 @@
+<tr>
+
+  <td>
+    <img class="completed-order" src=<%= line_item.product.image %>>
+  </td>
+  <td>
+    <h4>
+      <%= line_item.product.name %>
+    </h4>
+    <p>
+      <%= line_item.product.description %>
+    </p>
+  </td>
+  <td>
+    <%= line_item.quantity %>
+  </td>
+  <td>
+    <%= number_to_currency((line_item.total_price_cents)/100) %>
+  </td>
+<tr>
