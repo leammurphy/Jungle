@@ -53,12 +53,12 @@ RSpec.describe User, type: :model do
       expect(@user1).not_to be_nil
     end
 
-    it 'should return nil if the email is wrong' do
+    it 'should return nil if the email is incorrect' do
       @user1 = User.authenticate_with_credentials('John@gmail.com', 'password123')
       expect(@user1).to eq(nil)
     end
 
-    it 'should return nil if the password is wrong' do
+    it 'should return nil if the password is incorrect' do
       @user1 = User.authenticate_with_credentials(' Jane@gmail.com ', 'password124')
       expect(@user1).to eq(nil)
     end
