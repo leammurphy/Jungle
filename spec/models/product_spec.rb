@@ -64,49 +64,49 @@
 # end
 
 
-require 'rails_helper'
+# require 'rails_helper'
 
-RSpec.describe Product, type: :model do
-  before(:each) do
-    @category = Category.new()
-  end
-  context 'a product' do
-    it 'accepts the product' do
-      @product = Product.new(name: 'Whale Glue', price_cents: 1200, quantity: 43, :category => @category)
-      expect(@product.errors).not_to include("can't be blank")
-    end
-  end
+# RSpec.describe Product, type: :model do
+#   before(:each) do
+#     @category = Category.new()
+#   end
+#   context 'a product' do
+#     it 'accepts the product' do
+#       @product = Product.new(name: 'Whale Glue', price_cents: 1200, quantity: 43, :category => @category)
+#       expect(@product.errors).not_to include("can't be blank")
+#     end
+#   end
 
-  context 'a product without a price' do
-    it 'should raise an error' do
-      @product = Product.new(name: 'Whale Glue', price_cents: nil, quantity: 43, :category => @category)
-      expect(@product).to_not be_valid
-      expect(@product.errors.messages[:price]).to include("can't be blank")
-    end
-  end
+#   context 'a product without a price' do
+#     it 'should raise an error' do
+#       @product = Product.new(name: 'Whale Glue', price_cents: nil, quantity: 43, :category => @category)
+#       expect(@product).to_not be_valid
+#       expect(@product.errors.messages[:price]).to include("can't be blank")
+#     end
+#   end
 
-  context 'a product without a name' do
-    it 'should raise an error' do
-      @product = Product.new(name: nil, price_cents: 1200, quantity: 43, :category => @category)
-      expect(@product).to_not be_valid
-      expect(@product.errors.messages[:name]).to include("can't be blank")
-    end
-  end
+#   context 'a product without a name' do
+#     it 'should raise an error' do
+#       @product = Product.new(name: nil, price_cents: 1200, quantity: 43, :category => @category)
+#       expect(@product).to_not be_valid
+#       expect(@product.errors.messages[:name]).to include("can't be blank")
+#     end
+#   end
 
-  context 'a product without a quantity' do
-    it 'should raise an error' do
-      @product = Product.new(name: 'Whale Glue', quantity: nil, price_cents: 1200, :category => @category)
-      expect(@product).to_not be_valid
-      expect(@product.errors.messages[:quantity]).to include("can't be blank")
-    end
-  end
+#   context 'a product without a quantity' do
+#     it 'should raise an error' do
+#       @product = Product.new(name: 'Whale Glue', quantity: nil, price_cents: 1200, :category => @category)
+#       expect(@product).to_not be_valid
+#       expect(@product.errors.messages[:quantity]).to include("can't be blank")
+#     end
+#   end
 
-  context 'a product without a category' do
-    it 'should raise an error' do
-      @product = Product.new(name: 'Whale Glue', price_cents: 5, quantity: 1, :category => nil )
-      expect(@product).to_not be_valid
-      expect(@product.errors.messages[:category]).to include("can't be blank")
-    end
-  end
+#   context 'a product without a category' do
+#     it 'should raise an error' do
+#       @product = Product.new(name: 'Whale Glue', price_cents: 5, quantity: 1, :category => nil )
+#       expect(@product).to_not be_valid
+#       expect(@product.errors.messages[:category]).to include("can't be blank")
+#     end
+#   end
 
-end
+# end
