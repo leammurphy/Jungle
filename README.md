@@ -4,12 +4,12 @@ A mini e-commerce application built with Rails 4.2 with the desire to become mor
 
 ## Screenshots 
 
-![Feature: Sold Out Badge]()
-![Feature: Admin Categories]()
-![Feature: User Authentication]()
-![Enhancement: Order Details Page]()
-![Bug: Missing Admin Security]()
-
+![Home Page](/Images/HomePage.png)
+![Product View](/Images/ProductView.png)
+![My Cart](/Images/MyCart.png)
+![Admin Authentication](/Images/SimpleAdminAuthentication.png)
+![Admin Dashboard](/Images/AdminDashboard.png)
+![Admin Categories](/Images/AdminCategories.png)
 
 ## Setup
 
