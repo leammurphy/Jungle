@@ -4,12 +4,12 @@ A mini e-commerce application built with Rails 4.2 with the desire to become mor
 
 ## Screenshots 
 
-![Home Page](/Images/HomePage.png)
-![Product View](/Images/ProductView.png)
-![My Cart](/Images/MyCart.png)
-![Admin Authentication](/Images/SimpleAdminAuthentication.png)
-![Admin Dashboard](/Images/AdminDashboard.png)
-![Admin Categories](/Images/AdminCategories.png)
+![Home Page](https://github.com/leammurphy/Jungle/raw/master/Images/HomePage.png)
+![Product View](https://github.com/leammurphy/Jungle/raw/master/Images/ProductView.png)
+![My Cart](https://github.com/leammurphy/Jungle/raw/master/Images/MyCart.png)
+![Admin Authentication](https://github.com/leammurphy/Jungle/raw/master/Images/SimpleAdminAuthentication.png)
+![Admin Dashboard](https://github.com/leammurphy/Jungle/raw/master/Images/AdminDashboard.pngg)
+![Admin Categories](https://github.com/leammurphy/Jungle/raw/master/Images/AdminCategories.png)
 
 ## Setup
 
