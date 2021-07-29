@@ -4,12 +4,12 @@ A mini e-commerce application built with Rails 4.2 with the desire to become mor
 
 ## Screenshots 
 
-![Home Page](/Images/HomePage.png)
-![Product View](/Images/ProductView.png)
-![My Cart](/Images/MyCart.png)
-![Admin Authentication](/Images/SimpleAdminAuthentication.png)
-![Admin Dashboard](/Images/AdminDashboard.png)
-![Admin Categories](/Images/AdminCategories.png)
+![Home Page](Jungle/Images/HomePage.png)
+![Product View](Jungle/Images/ProductView.png)
+![My Cart](Jungle/Images/MyCart.png)
+![Admin Authentication](Jungle/Images/SimpleAdminAuthentication.png)
+![Admin Dashboard](Jungle/Images/AdminDashboard.png)
+![Admin Categories](lighthouse/letsDoRuby/Jungle/Images/AdminCategories.png)
 
 ## Setup
 
